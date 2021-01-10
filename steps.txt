@@ -1,0 +1,6 @@
+Git Steps
+
+git status (only in the root!@!)
+git add .
+git commit -m"something here"
+git push

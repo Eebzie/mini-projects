@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Changing Text Demo</title>
+    <style> 
+
+        span:before{
+            content: 'Gabby';
+          animation: animate 3s infinite;
+        }
+        @keyframes animate {
+          0%{
+          content: 'Gib';
+          }
+          20%{
+          content: 'Gab';
+          }
+          40%{
+          content: 'Gob';
+          }
+          60%{
+          content: 'GabE';
+          }
+          80%{
+          content: 'Gabriel';
+          }
+          100%{
+          content: 'Goobert';
+          }
+        }
+        </style>
+</head>
+<body>
+
+    <h1> My nicknames are <span></span></h1>
+
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Code Tag Bio Demo</title>
+    <style> 
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+    code{
+        width: 325px;
+        letter-spacing: 0.75px;
+    }
+    .container{
+        color:#f8f8f2;
+        background-color:#282a36;
+        border-radius: 5px;
+        padding: 10px 10px;
+        width: 40%;
+        height: 90px;
+        display: flex;
+    }
+    .code-nos{
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+        font-size: 11px;
+        font-family: 'Roboto Mono', monospace;
+    }
+    .info{
+        
+    }
+
+    .title{
+        color: #ff79c6;
+    }
+
+    .words{
+        color: #f1fa8c;
+    }
+
+    span.title{
+        margin-left: 5%;
+    }
+
+    .title:hover{
+        color: #bd5891;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="code-nos">123456</div>
+        <code class="info">
+            {<br/>
+            <span class="title bio">"bio"</span> : <span class="words bio">"writes code and makes coffee"</span>, <br/>
+            <span class="title currently">"currently"</span> : <span class="words currently">"@ruhacks"</span>,<br/>
+            <span class="title location">"location"</span> : <span class="words location">"Toronto, Canada"</span>,<br/>
+            <span class="title name">"name"</span> : <span class="words name">"Gabrielle Agustin"</span>,<br/>
+            }<br/>
+        </code>
+    </div>
+
+</body>
+</html>

@@ -1,4 +1,12 @@
 import logo from '../images/logo72.png';
+import {
+    Nav, 
+    NavLink,
+    Bars, 
+    NavMenu, 
+    NavBtn, 
+    NavBtnLink
+} from './NavbarElements';
 
 
 const Navbar = () => {
@@ -6,8 +14,7 @@ const Navbar = () => {
         <>
             <Nav>
                 <NavLink to="/">
-                    <img src={logo}/>
-                    <h1>Gabby</h1>
+                    <img src={logo} width='50px'/>
                 </NavLink>
                 <Bars />
                 <NavMenu>

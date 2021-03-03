@@ -4,8 +4,9 @@ import {FaBars} from 'react-icons/fa'
 
 const colors = {
     main: '#a065a0',
-    darkerMain: '#7d4d7d',
-    text: '#2a2a2a',
+    mainHover: '#7d4d7d',
+    mainSelect: '#955c95',
+    text: '#505050',
     white: '#fff',
     black: '#000',
     grey: '#eee',
@@ -31,7 +32,7 @@ export const NavLink = styled(Link)`
     cursor: pointer;
 
     &.active{
-        color: ${colors.darkerMain};
+        color: ${colors.mainSelect};
     }
     
     &:hover{
@@ -74,10 +75,10 @@ export const NavBtn = styled.div`
 `
 
 export const NavBtnLink = styled.nav`
-    border-radius: 4px;
-    background-color: ${colors.main};
+    border-radius: 50px;
+    background-color: ${colors.grey};
+    color: ${colors.main};
     padding: 10px 22px;
-    color: #fff;
     border: none;
     outline: none;
     cursor: pointer;
@@ -85,6 +86,7 @@ export const NavBtnLink = styled.nav`
 
     &:hover{
         transition: all 0.2s ease-in-out;
-        background: ${colors.darkerMain};
+        background: ${colors.mainHover}CC;
+        color: ${colors.white};
     }
 `
